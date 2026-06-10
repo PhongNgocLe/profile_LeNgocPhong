@@ -56,7 +56,7 @@ const Profile = () => {
   return (
     <div className="profile-container">
       <div className="profile-header">
-        <img src="https://via.placeholder.com/150" alt="Profile" className="profile-avatar" />
+        <img src="/images/avt.jpg" alt="Profile" className="profile-avatar" />
         <div className="profile-info">
           {isEditing ? (
             <input
